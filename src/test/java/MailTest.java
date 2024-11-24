@@ -51,7 +51,7 @@ public class MailTest {
     @Test
     public void testSendMail() {
         Client client = new Client("Oles",
-                LocalDate.of(2000, 1, 1),
+                LocalDate.of(CLIENT_YEAR, CLIENT_MONTH, CLIENT_DAY),
                 "M",
                 "trial@example.com");
 

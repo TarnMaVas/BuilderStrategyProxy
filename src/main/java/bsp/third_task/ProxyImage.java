@@ -1,4 +1,4 @@
-package bsp.task3;
+package bsp.third_task;
 
 public class ProxyImage implements MyImage {
     private RealImage realImage;

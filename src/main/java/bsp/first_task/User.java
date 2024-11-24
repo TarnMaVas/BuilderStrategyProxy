@@ -1,4 +1,4 @@
-package bsp.task1;
+package bsp.first_task;
 
 import java.util.List;
 
@@ -6,10 +6,6 @@ import lombok.Builder;
 import lombok.Getter;
 import lombok.Setter;
 import lombok.Singular;
-
-enum Gender {
-    MALE, FEMALE
-}
 
 @Getter @Setter @Builder
 public class User {

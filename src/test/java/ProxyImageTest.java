@@ -1,8 +1,9 @@
 import org.junit.jupiter.api.Test;
 
-import bsp.task3.ProxyImage;
+import bsp.third_task.ProxyImage;
 
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertFalse;
+import static org.junit.jupiter.api.Assertions.assertTrue;
 
 public class ProxyImageTest {
 

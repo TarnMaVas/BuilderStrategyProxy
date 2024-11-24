@@ -1,9 +1,9 @@
-package bsp.task2;
+package bsp.second_task;
 
 public class BirthdayCode implements MailCode {
     
     @Override
     public String generate(Client client) {
-        return String.format("Happy Birthday, dear %s!", client.getName()) ;
+        return String.format("Happy Birthday, dear %s!", client.getName());
     }
 }

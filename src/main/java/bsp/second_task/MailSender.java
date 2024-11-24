@@ -1,12 +1,13 @@
-package bsp.task2;
+package bsp.second_task;
+
+import org.json.JSONArray;
+import org.json.JSONObject;
 
 import com.mailjet.client.ClientOptions;
 import com.mailjet.client.MailjetClient;
 import com.mailjet.client.MailjetRequest;
 import com.mailjet.client.MailjetResponse;
 import com.mailjet.client.resource.Emailv31;
-import org.json.JSONArray;
-import org.json.JSONObject;
 
 public class MailSender {
     private static final String API_KEY = 
@@ -39,7 +40,8 @@ public class MailSender {
 
         try {
             MailjetResponse response = client.post(request);
-            System.out.println("Email sent successfully. Status Code: " + response.getStatus());
+            System.out.println(
+            "Email sent successfully. Status Code: " + response.getStatus());
         } catch (com.mailjet.client.errors.MailjetException e) {
             System.out.println("Error sending email: " + e.getMessage());
         }

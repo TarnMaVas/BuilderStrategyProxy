@@ -1,4 +1,4 @@
-package bsp.task2;
+package bsp.second_task;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -24,5 +24,7 @@ public class MailBox {
         for (MailInfo info : infos) {
             sender.sendMail(info);
         }
+
+        infos.clear();
     }
 }

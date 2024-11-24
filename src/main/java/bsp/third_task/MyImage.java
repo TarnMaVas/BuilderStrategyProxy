@@ -1,4 +1,4 @@
-package bsp.task3;
+package bsp.third_task;
 
 public interface MyImage {
     void display();

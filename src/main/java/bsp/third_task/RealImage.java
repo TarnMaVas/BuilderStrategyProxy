@@ -1,6 +1,6 @@
-package bsp.task3;
-import javax.swing.JFrame;
+package bsp.third_task;
 import javax.swing.ImageIcon;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 
 public class RealImage implements MyImage {

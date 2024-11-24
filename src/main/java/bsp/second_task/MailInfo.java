@@ -1,4 +1,4 @@
-package bsp.task2;
+package bsp.second_task;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

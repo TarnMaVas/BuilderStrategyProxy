@@ -1,4 +1,4 @@
-package bsp.second_task;
+package bsp.secondtask;
 
 import java.time.LocalDate;
 

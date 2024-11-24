@@ -3,12 +3,12 @@ package bsp;
 import java.time.LocalDate;
 import java.util.List;
 
-import bsp.first_task.User;
-import bsp.second_task.Client;
-import bsp.second_task.GiftCode;
-import bsp.second_task.MailBox;
-import bsp.second_task.MailInfo;
-import bsp.third_task.ProxyImage;
+import bsp.firsttask.User;
+import bsp.secondtask.Client;
+import bsp.secondtask.GiftCode;
+import bsp.secondtask.MailBox;
+import bsp.secondtask.MailInfo;
+import bsp.thirdtask.ProxyImage;
 
 
 public class Main {

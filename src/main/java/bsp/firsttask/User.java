@@ -1,4 +1,4 @@
-package bsp.first_task;
+package bsp.firsttask;
 
 import java.util.List;
 

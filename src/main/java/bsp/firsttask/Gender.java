@@ -1,4 +1,4 @@
-package bsp.first_task;
+package bsp.firsttask;
 
 public enum Gender {
     MALE, FEMALE

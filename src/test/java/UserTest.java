@@ -1,9 +1,9 @@
 import java.util.List;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import bsp.first_task.User;
+import bsp.firsttask.User;
 
 public class UserTest {
 
@@ -23,8 +23,8 @@ public class UserTest {
                 .grade(USER_GRADE)
                 .build();
 
-        assertEquals(USER_NAME, user.getName());
-        assertEquals(USER_AGE, user.getAge());
-        assertEquals(USER_GRADES_CHECK, user.getGrades());
+        Assertions.assertEquals(USER_NAME, user.getName());
+        Assertions.assertEquals(USER_AGE, user.getAge());
+        Assertions.assertEquals(USER_GRADES_CHECK, user.getGrades());
     }
 }

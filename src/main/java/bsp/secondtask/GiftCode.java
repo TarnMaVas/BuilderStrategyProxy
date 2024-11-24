@@ -1,4 +1,4 @@
-package bsp.second_task;
+package bsp.secondtask;
 
 public class GiftCode implements MailCode {
     

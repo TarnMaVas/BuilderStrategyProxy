@@ -1,4 +1,4 @@
-package bsp.third_task;
+package bsp.thirdtask;
 import javax.swing.ImageIcon;
 import javax.swing.JFrame;
 import javax.swing.JLabel;

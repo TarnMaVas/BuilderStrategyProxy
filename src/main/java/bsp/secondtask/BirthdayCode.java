@@ -1,4 +1,4 @@
-package bsp.second_task;
+package bsp.secondtask;
 
 public class BirthdayCode implements MailCode {
     

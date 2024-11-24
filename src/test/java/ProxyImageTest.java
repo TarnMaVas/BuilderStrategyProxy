@@ -1,9 +1,7 @@
+import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import bsp.third_task.ProxyImage;
-
-import static org.junit.jupiter.api.Assertions.assertFalse;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import bsp.thirdtask.ProxyImage;
 
 public class ProxyImageTest {
 
@@ -11,9 +9,9 @@ public class ProxyImageTest {
     public void testProxyImageLazyLoading() {
         ProxyImage proxyImage = new ProxyImage("images.png");
 
-        assertFalse(proxyImage.isRealImageCreated());
+        Assertions.assertFalse(proxyImage.isRealImageCreated());
 
         proxyImage.display();
-        assertTrue(proxyImage.isRealImageCreated());
+        Assertions.assertTrue(proxyImage.isRealImageCreated());
     }
 }
